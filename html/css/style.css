@@ -342,9 +342,11 @@ header .container {
 	max-width: 100%;
 	padding: 0 70px 0 70px;
 }
-.logo {
+.logo img {
 	float: left;
 	margin-top: 9px;
+	max-width: 8em;
+	
 
 	
 }
