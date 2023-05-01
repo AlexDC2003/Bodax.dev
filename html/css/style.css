@@ -345,10 +345,7 @@ header .container {
 .logo img {
 	float: left;
 	margin-top: 9px;
-	max-width: 8em;
-	
-
-	
+	max-height: 3em;
 }
 
 nav {
