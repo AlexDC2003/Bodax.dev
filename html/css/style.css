@@ -348,6 +348,10 @@ header .container {
 	max-height: 3em;
 }
 
+.logo-size {
+	max-height: 3em;
+}
+
 nav {
 	float: left;
 	padding-left: 91px;
