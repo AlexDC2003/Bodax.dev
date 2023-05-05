@@ -1263,6 +1263,10 @@ footer {
 	display: block;
 }
 
+.footer-link:hover {
+	text-decoration: underline;
+}
+
 
 /* ==================== LEFT SIDEBAR ===================== */
 
@@ -2545,9 +2549,7 @@ footer.gradient-bg2 {
 /* ERROR PAGE */
 
 .error-page {
-	background-image: url(../images/404.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-color:#20242d;
 	height: 100vh;
 }
 body.no-scroll {
@@ -2605,6 +2607,11 @@ body.no-scroll {
 	margin: 0 auto;
 	padding: 0;
 }
+
+.error-content .widget-search form {
+	padding: 1em 0 0 1em;
+}
+
 .error-content .widget-search form input {
 	width: 100%;
 	background-color: inherit;
@@ -2615,6 +2622,9 @@ body.no-scroll {
 	background-color: inherit;
 }
 
+.error-content .widget-search form button {
+	padding: 1em 1em 0 0;
+}
 
 
 .failed,

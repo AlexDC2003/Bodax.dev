@@ -42,7 +42,7 @@ $(window).on("load", function() {
             method:"POST",
             data: $(form).serialize(),
             beforeSend:function(){
-                $('#contact-form .response').html('<div class="text-info"><img src="images/preloader.gif"> Loading...</div>');
+                $('#contact-form .response').html('<div class="text-info"><img src="images/preloader.gif"> lädt...</div>');
             },
             success:function(data){
                 $('form').trigger("reset");
