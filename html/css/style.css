@@ -799,6 +799,13 @@ header .menu-btn {
 	color: #fff;
 }
 
+.success {
+	padding: 1em;
+	background: green;
+	color: white;
+}
+
+
 
 /* ===================== WHY CHOOSE US SECTION ================== */
 
