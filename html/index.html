@@ -231,24 +231,29 @@
 						<form method="post" action="#" id="contact-form">
 							<div class="response"></div>
 							<div class="row">
-								<div class="col-lg-6">
+								<div class="col-lg-6 col-md-6 col-sm-6">
 									<div class="input-field">
-										<input type="text" name="name" class="name" placeholder="Name">
+										<input type="text" name="name" class="name" placeholder="Name*" required>
 									</div><!--input-field end-->
 								</div>
-								<div class="col-lg-6">
+								<div class="col-lg-6 col-md-6 col-sm-6">
 									<div class="input-field">
-										<input type="text" name="email" class="email" placeholder="Email">
+										<input type="text" name="email" class="email" placeholder="Email*" required>
+									</div><!--input-field end-->
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-6">
+									<div class="input-field">
+										<input type="text" name="phone" class="phone" placeholder="Telefonnummer">
 									</div><!--input-field end-->
 								</div>
 								<div class="col-lg-12">
 									<div class="input-field">
-										<textarea name="message" placeholder="Message"></textarea>
+										<textarea type="text" name="contact_message" class="contact_message" placeholder="Nachricht*" required></textarea>
 									</div><!--input-field end-->
 								</div>
 								<div class="col-lg-12">
 									<div class="input-field m-0">
-										<button type="button" class="btn-default" id="submit">Nachricht schicken</button>
+										<button type="button" class="btn-default" id="submit">Abschicken</button>
 									</div>
 								</div>
 							</div>
