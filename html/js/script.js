@@ -29,7 +29,7 @@ $(window).on("load", function() {
         
               var name = $('#contact-form .name').val();
               var email = $('#contact-form .email').val();
-              // var phone = $('#contact-form .phone').val();
+              var phone = $('#contact-form .phone').val();
         
         if(name == '' || email == '')
         {
