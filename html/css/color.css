@@ -22,7 +22,7 @@ nav ul li a:hover,
 .error-content > h4 a,
 .responsive-mobile-menu ul li a:hover,
 .rb-post-info h3:hover {
-	color: #DD4242;
+	color: #E6284D;
 }
 
 
@@ -36,7 +36,7 @@ nav ul li a:hover,
 .tags li a:hover,
 .cm-head > span:before,
 .response {
-	background-color: #DD4242;
+	background-color: #E6284D;
 }
 
 
@@ -49,5 +49,5 @@ nav ul li a:hover,
 .form-group textarea:focus,
 .error-content .widget-search form input:focus,
 .newsletter-form input:focus {
-	border-color: #DD4242;
+	border-color: #E6284D;
 }

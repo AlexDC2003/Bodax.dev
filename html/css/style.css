@@ -309,11 +309,11 @@ header.pb {
 	left: 0;
 	z-index: 9;
 	width: 100%;
-	padding: 60px 0 0 0;
+	padding: 30px 0 30px 0;
 	background:inherit;
 }
 header {
-	padding: 60px 0 50px;
+	padding: 50px 0 40px;
 	position: relative;
 	background-color: #191b27;
 }
@@ -370,6 +370,11 @@ nav ul li a {
 	font-size: 18px;
 	font-family: 'Muli', sans-serif;
 }
+
+.nav-link-active {
+	color: #E6284D;
+}
+
 .right-side-hd {
 	float: right;
 }
@@ -398,7 +403,7 @@ button.btn-default {
 	background-color: inherit;
 }
 .btn-default:hover {
-	background-color: #dd4142;
+	background-color: #E6284D;
 	color: #fff;
 }
 
@@ -553,7 +558,7 @@ header .menu-btn {
 	color: #fff;
 	width: 80px;
 	height: 80px;
-	background-color: #dd4142;
+	background-color: #E6284D;
 	text-align: center;
 	line-height: 80px;
 }
@@ -665,7 +670,7 @@ header .menu-btn {
 	left: 0;
 	width: 100%;
 	height: 1px;
-	background-color: #dd4142;
+	background-color: #E6284D;
 }
 .btn-default2:hover:before {
 	width: 0;
@@ -795,7 +800,7 @@ header .menu-btn {
 	margin-top: 10px;
 }
 .input-field > .btn-default:hover {
-	background-color: #dd4142;
+	background-color: #E6284D;
 	color: #fff;
 }
 
@@ -916,6 +921,8 @@ header .menu-btn {
 .pft-item {
 	position: relative;
 }
+
+/*
 .pft-item:before,
 .blog-thumbnail:before,
 .blog-page .blog_post.main:before {
@@ -940,6 +947,7 @@ header .menu-btn {
 	background: linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%); 
 	mix-blend-mode: soft-light;
 }
+*/
 .pft-item > img {
 	display: block;
 	width: 100%;
@@ -1123,7 +1131,7 @@ footer {
 	float: left;
 	width: 60px;
 	height: 60px;
-	background-color: #dd4142;
+	background-color: #E6284D;
 	line-height: 60px;
 	text-align: center;
 	border:0;
@@ -1471,6 +1479,8 @@ footer {
 .team-carousel .col-lg-4 {
 	padding: 0;
 }
+
+/*
 .tema-col:before {
 	content: '';
 	position: absolute;
@@ -1484,6 +1494,8 @@ footer {
 	background: linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%);
 	mix-blend-mode: soft-light;
 }
+*/
+
 .tema-col:hover {
 	-webkit-transform: translateY(-20px);
 	-moz-transform: translateY(-20px);
@@ -1653,7 +1665,7 @@ footer {
 	margin-bottom: 34px;
 }
 .price-col.active .price-head {
-	background-color: #dd4142;
+	background-color: #E6284D;
 } 
 .price-col.active {
 	-webkit-transform: translateY(-40px);
@@ -1746,7 +1758,7 @@ footer {
 	left: 0;
 	width: 6px;
 	height: 6px;
-	background-color: #dd4142;
+	background-color: #E6284D;
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
