@@ -309,11 +309,11 @@ header.pb {
 	left: 0;
 	z-index: 9;
 	width: 100%;
-	padding: 30px 0 30px 0;
+	padding: 30px 30px 30px 30px;
 	background:inherit;
 }
 header {
-	padding: 50px 0 40px;
+	padding: 50px 30px 40px 30px;
 	position: relative;
 	background-color: #191b27;
 }
@@ -372,7 +372,7 @@ nav ul li a {
 }
 
 .nav-link-active {
-	color: #E6284D;
+	color: #E6284D !important;
 }
 
 .right-side-hd {
@@ -433,7 +433,7 @@ header .menu-btn {
 	background-position: top right;
 }
 .banner-slider {
-	padding: 285px 0 163px;
+	padding: 75px 0 163px;
 }
 .main-banner-text {
 	max-width: 770px;
@@ -922,7 +922,7 @@ header .menu-btn {
 	position: relative;
 }
 
-/*
+
 .pft-item:before,
 .blog-thumbnail:before,
 .blog-page .blog_post.main:before {
@@ -940,14 +940,13 @@ header .menu-btn {
 }
 .pft-item:hover:before,
 .blog-page .blog_post.main:hover:before {
-	background: -webkit-linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%); 
-	background: -moz-linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%); 
-	background: -ms-linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%); 
-	background: -o-linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%); 
-	background: linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%); 
-	mix-blend-mode: soft-light;
+	background: -webkit-linear-gradient(180deg, rgba(25, 28, 38, 0) 0%, #191C26 100%);
+	background: -moz-linear-gradient(180deg, rgba(25, 28, 38, 0) 0%, #191C26 100%);
+	background: -ms-linear-gradient(180deg, rgba(25, 28, 38, 0) 0%, #191C26 100%);
+	background: -o-linear-gradient(180deg, rgba(25, 28, 38, 0) 0%, #191C26 100%);
+	background: linear-gradient(180deg, rgba(25, 28, 38, 0) 0%, #191C26 100%);
 }
-*/
+
 .pft-item > img {
 	display: block;
 	width: 100%;
@@ -1480,7 +1479,7 @@ footer {
 	padding: 0;
 }
 
-/*
+
 .tema-col:before {
 	content: '';
 	position: absolute;
@@ -1491,10 +1490,9 @@ footer {
 	background:linear-gradient(180deg, rgba(25, 28, 38, 0) 0%, #191C26 100%);
 }
 .tema-col:hover:before {
-	background: linear-gradient(180deg, rgba(8, 10, 18, 0) 0%, #DD4242 100%);
-	mix-blend-mode: soft-light;
+	background: linear-gradient(180deg, rgba(25, 28, 38, 0) 0%, #191c26 100%);
 }
-*/
+
 
 .tema-col:hover {
 	-webkit-transform: translateY(-20px);
@@ -2667,7 +2665,7 @@ body.no-scroll {
 	height: 100%;
 	background: #000;
 	overflow-y: auto;
-	z-index: 99;
+	z-index: 999;
 	padding: 80px 50px;
 	opacity: 0;
 	visibility: hidden;
